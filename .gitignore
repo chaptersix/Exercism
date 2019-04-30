@@ -1,0 +1,10 @@
+.idea/*
+.idea/
+.vscode/
+.vscode/*
+.gradle/*
+.gradle
+.exercism
+.exercism/
+__pycache__
+__pycache__/*

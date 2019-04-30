@@ -8,3 +8,9 @@
 .exercism/
 __pycache__
 __pycache__/*
+CMakeFiles/
+test/
+cmake_*
+CMakeCache.txt
+Makefile
+

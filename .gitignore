@@ -13,4 +13,6 @@ test/
 cmake_*
 CMakeCache.txt
 Makefile
-
+obj/
+bin/
+build/

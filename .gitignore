@@ -16,3 +16,4 @@ Makefile
 obj/
 bin/
 build/
+node_modules/

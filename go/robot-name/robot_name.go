@@ -41,8 +41,8 @@ func (r *Robot) Reset() {
 }
 
 func randName() string {
-	r1 := string(rand.Intn(26) + 'A')
-	r2 := string(rand.Intn(26) + 'A')
-	num := rand.Intn(1000)
+	r1 := string(seededRand.Intn(26) + 'A')
+	r2 := string(seededRand.Intn(26) + 'A')
+	num := seededRand.Intn(1000)
 	return fmt.Sprintf("%s%s%03d", r1, r2, num)
 }
